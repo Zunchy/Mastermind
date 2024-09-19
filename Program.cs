@@ -35,7 +35,6 @@ bool Play()
     var userAttempts = _attempts;
 
     var challengeNumber = GenerateChallengeNumber();
-    Console.WriteLine($"DEBUG ONLY - Challenge Number is - {challengeNumber}");
 
     Console.WriteLine("Please enter your first guess:");
     var userGuess = string.Empty;
